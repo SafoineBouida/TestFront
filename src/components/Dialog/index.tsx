@@ -33,7 +33,7 @@ const GameDialog = ({ open = false, onClose, won = false }: Props) => {
         </DialogContentText>
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose}>Replay</Button>
+        <Button onClick={handleClose}>Rejouer</Button>
       </DialogActions>
     </Dialog>
   );
