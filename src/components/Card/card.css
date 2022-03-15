@@ -1,0 +1,17 @@
+.card {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+.card.flipped {
+  background-color: grey;
+}
+
+.card.disabled {
+  cursor: default;
+}

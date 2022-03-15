@@ -7,11 +7,13 @@
 }
 
 .cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
   margin-bottom: 100px;
+  background-color: lightsteelblue;
 }
 
 .timer {

@@ -1,4 +1,6 @@
-import React from "react";
+import classnames from "classnames";
+
+import "./card.css";
 
 interface Props {
   flipped?: boolean;
@@ -22,16 +24,10 @@ const Card = ({
 
   return (
     <div
-      style={{
-        width: 80,
-        height: 80,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: flipped ? "grey" : "black",
-        margin: 10,
-        cursor: isClickDisabled ? "default" : "pointer",
-      }}
+      className={classnames("card", {
+        flipped,
+        disabled: isClickDisabled,
+      })}
       onClick={onCardClick}
     >
       {flipped && <img src={image} alt="img" />}

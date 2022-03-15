@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
 
 interface Props {

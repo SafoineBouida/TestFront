@@ -28,7 +28,7 @@ const GameDialog = ({ open = false, onClose, won = false }: Props) => {
       <DialogContent>
         <DialogContentText id="alert-dialog-description">
           {won
-            ? "Félicitations, vous avez gagné le jeu, bon souvenir. Tu veux rejouer et prouver que ce n'était pas un coup de chance ? "
+            ? "Félicitations, vous avez gagné le jeu. Tu veux rejouer et prouver que ce n'était pas un coup de chance ? "
             : "C'était vraiment médiocre, des mauvaises performances quel dommage. Réessayez peut-être gagnerez-vous cette fois ? "}
         </DialogContentText>
       </DialogContent>
